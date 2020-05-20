@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Style/style form.css">
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Form</title>
+</head>
+
+<body>
+    <header class="contanier size">
+        <div class="navigation">
+            <div class="logo">
+                <a href="../index.html"> <img src="../images/logo.png"></a>
+            </div>
+            <nav class="navigation">
+                <ul class="nav">
+                    <li> <a href="films.html">Фильмы</a></li>
+                    <li> <a href="serials.html">Сериалы</a></li>
+                    <li> <a href="heroes.html">Герои </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="size">
+        <div class="forma size">
+            <div class="form">
+                <form id="form" method="post" action="http://foo.com">
+                    <div>
+                        <div class="form-gr">
+                            <label for="first_name">Имя</label>
+                            <input type="text" id="first_name" name="first_name"></input>
+                        </div>
+                        <div class="form-gr">
+                            <label for="last_name">Фамилия</label>
+                            <input type="text" id="last_name" name="last_name"></input>
+                        </div>
+                    </div>
+                    <div class="form-gr">
+                        <label for="selectHeroes">Любимый Персонаж</label>
+                        <select class="form-heroes field" id="selectHeroes">
+                            <option></option>
+                            <option>Железный Человек</option>
+                            <option>Капитан Америка</option>
+                            <option>Тор</option>
+                            <option>Человек Паук </option>
+                            <option>Халк</option>
+                            <option>Другое</option>
+                        </select>
+                    </div>
+                    <div class="form-gr">
+                        <label for="password">Пароль</label>
+                        <input type="password" id="password" name="password"></input>
+                    </div>
+                    <div class="form-gr">
+                        <label for="textMes">Сообщение</label>
+                        <textarea id="textMes" rows="3" cols="30" class="field"></textarea>
+                    </div>
+                    <div class="form-gr">
+                        <input id="btn" type="submit" value="Отправить" onclick="valid()" />
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-skype"></i></a>
+        <a href="#"><i class="fa fa-vk"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <p class="prava">&copy Marvel. Все права защищены.</p>
+    </footer>
+    <script src="../JS/main form.js"></script>
+</body>
+
+</html>

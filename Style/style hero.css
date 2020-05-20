@@ -1,0 +1,119 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  width: 100%;
+  margin: auto;
+}
+
+.size {
+  margin: auto;
+  max-width: 1380px;
+}
+
+.navigation {
+  padding-top: 15px;
+  display: flex;
+  justify-content: stretch;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #70726F;
+}
+
+li a:hover {
+  color: #061D25;
+  text-decoration: none;
+}
+
+li {
+  margin: 0px 125px;
+  line-height: 70px;
+  font-size: x-large;
+  font-family: sans-serif;
+  font-style: initial;
+}
+
+h1 {
+  color: darkgoldenrod;
+  text-align: center;
+  padding: 15px 0 15px 0;
+}
+
+a:hover {
+  text-decoration: none !important;
+
+}
+
+
+h3 {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  color: black
+}
+
+h3:hover {
+  text-decoration: none !important;
+  color: darkgoldenrod;
+}
+
+.footer {
+  background: #061D25;
+  padding: 10px 0;
+}
+
+.footer a {
+  color: #70726F;
+  font-size: 20px;
+  padding: 10px;
+  border-right: 1px solid #70726F;
+  transition: all .5s ease;
+  text-align: center;
+
+}
+
+.footer p {
+  color: #70726F
+}
+
+.footer a:first-child {
+  border-left: 1px solid #70726F;
+  padding-left: 500px;
+}
+
+.footer a:hover {
+  color: white;
+}
+
+@media (max-width: 980px) {
+  body {
+    max-width: 980px;
+    margin: auto;
+  }
+
+  .size {
+    margin: auto;
+    max-width: 980px;
+  }
+
+  li {
+    margin: 0px 45px;
+  }
+
+  .footer a:first-child {
+    padding-left: 15px;
+  }
+
+  .footer a {
+    padding: 5px;
+  }
+}
